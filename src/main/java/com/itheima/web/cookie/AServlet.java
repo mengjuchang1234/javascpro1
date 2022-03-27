@@ -16,6 +16,8 @@ public class AServlet extends HttpServlet {
 //        Cookie cookie = new Cookie("username","zs");
 
         String value = "张三";
+
+
         //URL编码
         value = URLEncoder.encode(value, "UTF-8");
         System.out.println("存储数据："+value);
