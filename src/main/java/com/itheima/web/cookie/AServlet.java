@@ -22,6 +22,8 @@ public class AServlet extends HttpServlet {
 
         Cookie cookie = new Cookie("username",value);
 
+
+
         //设置存活时间   ，1周 7天
         cookie.setMaxAge(60*60*24*7);
 
