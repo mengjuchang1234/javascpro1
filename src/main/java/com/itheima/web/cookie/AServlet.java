@@ -18,6 +18,7 @@ public class AServlet extends HttpServlet {
         String value = "张三";
 
 
+
         //URL编码
         value = URLEncoder.encode(value, "UTF-8");
         System.out.println("存储数据："+value);

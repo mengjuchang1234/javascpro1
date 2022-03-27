@@ -23,6 +23,8 @@ public class BServlet extends HttpServlet {
             //3. 获取数据
             String name = cookie.getName();
             if("username".equals(name)){
+
+
                 String value = cookie.getValue();
                 //URL解码
                 value = URLDecoder.decode(value,"UTF-8");
